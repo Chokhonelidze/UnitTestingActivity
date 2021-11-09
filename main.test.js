@@ -9,10 +9,9 @@ describe('test greet()',()=>{
         expect(greet('ELIZABETH')).toEqual("HELLO ELIZABETH");
      });
      it('2x names are working',()=>{
-        expect(greet(['Eliza','Beth'])).toEqual("Hello, Eliza,Beth");
+        expect(greet(['Jose','Pep'])).toEqual("Hello, Jose,Pep");
      });
      it('4x names should be working',()=>{
-        expect(greet(['Eliza','Beth','George','David'])).toEqual("Hello, Eliza,Beth,George,David");
+        expect(greet(['Alex','Arsene','Jose','Zidane'])).toEqual("Hello, Alex,Arsene,Jose,Zidane");
      })
-});
- 
+})
