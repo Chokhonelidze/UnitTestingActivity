@@ -1,0 +1,27 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "this is testing from week 8",
+  "main": "main.js",
+  "scripts": {
+    "test": "jest",
+    "start":"node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chokhonelidze/UnitTestingActivity.git"
+  },
+  "keywords": [
+    "test"
+  ],
+  "author": "George Chokhonelidze",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/Chokhonelidze/UnitTestingActivity/issues"
+  },
+  "homepage": "https://github.com/Chokhonelidze/UnitTestingActivity#readme",
+  "dependencies": {
+    "course-utilities": "^1.0.0",
+    "jest": "^26.1.0"
+  }
+}
